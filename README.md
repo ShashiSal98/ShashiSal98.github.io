@@ -1,6 +1,6 @@
-# Typing SVG
-🚀 Software Engineer | Odoo Specialist | Mobile App Developer | Flutter Specialist  
-Crafting seamless software experiences from Sri Lanka 🇱🇰  
+#  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=500&color=00F7F7&center=true&vCenter=true&width=800&lines=Software+Engineer|Fullstack+Developer|Odoo+Specialist" alt="Typing SVG">
+
+🚀 Crafting seamless software experiences from Sri Lanka 🇱🇰  
 
 ---
 
