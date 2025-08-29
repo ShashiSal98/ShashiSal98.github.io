@@ -615,18 +615,19 @@
             </div>
           </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/project-8.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/project-8.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                   title="PHP 3"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/ShashiSal98/Online_Book_Store" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/ShashiSal98/Online_Book_Store" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/project-9.png" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -637,19 +638,20 @@
             </div>
           </div>
 
-          
-     <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/project-10.png" class="img-fluid" alt="">
               <div class="portfolio-links">
                 <a href="assets/img/portfolio/project-10.png" data-gallery="portfolioGallery" class="portfolio-lightbox"
                   title="PHP 5"><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/ShashiSal98/car-rental-portal" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://github.com/ShashiSal98/car-rental-portal" title="More Details"><i
+                    class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
 
-               <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/project-11.png" class="img-fluid" alt="">
               <div class="portfolio-links">
@@ -727,7 +729,7 @@
         <div class="section-title">
           <h2>Contact Me</h2>
           <p>Have a project in mind or want to collaborate?
-            Feel free to reach out — I’d love to hear from you and explore how we can work together.</p>
+            Feel free to reach out - I’d love to hear from you and explore how we can work together.</p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -762,7 +764,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contactForm" action="contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
@@ -786,11 +788,21 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
+              <div class="my-3">
+                <div class="loading" style="display:none;">Loading...</div>
+                <div class="error-message" style="display:none;"></div>
+                <div class="sent-message" style="display:none;">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="col-md-12 text-center">
+                <button type="submit">Send Message</button>
+              </div>
 
+          </div>
+          </form>
+          
         </div>
+
+      </div>
 
       </div>
     </section><!-- End Contact Section -->
