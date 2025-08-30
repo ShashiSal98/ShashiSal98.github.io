@@ -45,6 +45,6 @@ MySQL | PostgreSQL | MondoDB | Git | JIRA | XAMPP
 
 ## 🤝 Let's Connect!
 
-[Email](mailto:shashisalwathura@gmail.com) | [LinkedIn](https://www.linkedin.com/in/shashisalwathura) | [GitHub](https://github.com/ShashiSal98)
+[Email](mailto:shashisalwathura8@gmail.com) | [LinkedIn]([https://www.linkedin.com/in/shashisalwathura](https://www.linkedin.com/in/shashi-salwathura/)) | [GitHub](https://github.com/ShashiSal98)
 
 ---
