@@ -1,7 +1,7 @@
 /**
 * PHP Email Form Validation - v3.4
 * Author: BootstrapMade.com
-* Edited for your project
+* Edited for Formspree integration
 */
 (function () {
   "use strict";
@@ -33,8 +33,8 @@
             try {
               grecaptcha.execute(recaptcha, { action: 'php_email_form_submit' })
               .then(token => {
-                formData.set('recaptcha-response', token);
-                php_email_form_submit(form, action, formData);
+                formData.set('g-recaptcha-response', token);
+                submitForm(form, action, formData);
               });
             } catch (error) {
               displayError(form, error);
@@ -44,35 +44,30 @@
           displayError(form, 'The reCaptcha javascript API url is not loaded!');
         }
       } else {
-        php_email_form_submit(form, action, formData);
+        submitForm(form, action, formData);
       }
     });
   });
 
-  function php_email_form_submit(form, action, formData) {
+  function submitForm(form, action, formData) {
     fetch(action, {
       method: 'POST',
       body: formData,
-      headers: { 'X-Requested-With': 'XMLHttpRequest' }
+      headers: { 'Accept': 'application/json' } // important for Formspree
     })
-    .then(response => {
-      if (response.ok) {
-        return response.text();
-      } else {
-        throw new Error(`${response.status} ${response.statusText} ${response.url}`);
-      }
-    })
+    .then(response => response.json())
     .then(data => {
       form.querySelector('.loading').classList.remove('d-block');
-      if (data.trim() === 'OK') {
+
+      if (data.ok) {  // Formspree returns { ok: true, next: ... }
         form.querySelector('.sent-message').classList.add('d-block');
         form.reset();
       } else {
-        throw new Error(data ? data : 'Form submission failed, no response from: ' + action);
+        throw new Error(JSON.stringify(data));
       }
     })
     .catch((error) => {
-      displayError(form, error);
+      displayError(form, error.message || error);
     });
   }
 
