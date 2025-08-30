@@ -22,7 +22,7 @@ const shashi = {
 🌱 Currently mastering: Odoo Customization, ERP Automation, Flutter Patterns  
 💡 Love to explore: New technologies and innovative software solutions  
 🎯 Goal: Contributing to impactful applications that solve real-world problems  
-📧 Reach me: [shashisalwathura@gmail.com](mailto:shashisalwathura8@gmail.com)  
+📧 Reach me: [shashisalwathura8@gmail.com](mailto:shashisalwathura8@gmail.com)  
 
 ---
 
