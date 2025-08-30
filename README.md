@@ -7,9 +7,9 @@
 ## 🧑‍💻 About Me
 ```javascript
 const shashi = {
-  title: "Senior Software Engineer",
+  title: "Software Engineer",
   location: "Sri Lanka 🇱🇰",
-  specialization: ["Odoo ERP", "Web Development", "Flutter Mobile Apps"],
+  specialization: ["Fullstack Development", "Odoo ERP", "Flutter Mobile Apps"],
   currentFocus: "Building scalable business applications and mobile solutions",
   learning: ["AI Integrations", "Advanced ERP Automation", "FastAPI"],
   hobbies: ["Open Source", "Tech Blogging", "UI/UX Design", "Problem Solving"]
@@ -22,7 +22,7 @@ const shashi = {
 🌱 Currently mastering: Odoo Customization, ERP Automation, Flutter Patterns  
 💡 Love to explore: New technologies and innovative software solutions  
 🎯 Goal: Contributing to impactful applications that solve real-world problems  
-📧 Reach me: [shashisalwathura@gmail.com](mailto:shashisalwathura@gmail.com)  
+📧 Reach me: [shashisalwathura8@gmail.com](mailto:shashisalwathura8@gmail.com)  
 
 ---
 
