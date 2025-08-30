@@ -7,9 +7,9 @@
 ## 🧑‍💻 About Me
 ```javascript
 const shashi = {
-  title: "Senior Software Engineer",
+  title: "Software Engineer",
   location: "Sri Lanka 🇱🇰",
-  specialization: ["Odoo ERP", "Web Development", "Flutter Mobile Apps"],
+  specialization: ["Fullstack Development", "Odoo ERP", "Flutter Mobile Apps"],
   currentFocus: "Building scalable business applications and mobile solutions",
   learning: ["AI Integrations", "Advanced ERP Automation", "FastAPI"],
   hobbies: ["Open Source", "Tech Blogging", "UI/UX Design", "Problem Solving"]
